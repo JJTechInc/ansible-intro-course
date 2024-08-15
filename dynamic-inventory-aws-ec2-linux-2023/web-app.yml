@@ -21,7 +21,7 @@
 
   - name: Clone a repo with separate git directory
     ansible.builtin.git:
-      repo: https://github.com/cvamsikrishna11/ecommerce-web-app.git
+      repo: https://github.com/JJTechInc/ecommerce-web-app.git
       dest: /home/ansible/ecommerce-web-app
 
   - name: Copy project files into dedicated directory
